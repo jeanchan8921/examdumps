@@ -1,0 +1,141 @@
+Netapp NS0-160 exam dumps have been updated, which are helpful for you to clear NS0-160 exam and earn Netapp NCDA certification. Share some NS0-160 exam dumps questions below.
+1.You need to move a FlexVol volume from one SVM to another. 
+In this situation, which command would accomplish this task?
+A. volume create
+B. volume rehost
+C. volume modify
+D. volume move
+Answer: B
+Explanation:
+Reference: https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-vsmg%2FGUID-84308166-6872-47C2-AEC0-D6346AD1D761.html
+
+2.Which failover policy is set by default on an iSCSI LIF?
+A. local-only
+B. broadcast-domain-wide
+C. disabled
+D. sfo-partner-only
+Answer: A
+
+3.You are running a FAS8200 system with ONTAP 9.5 with a Flash Pool aggregate. You have an SVM root volume and two volumes (Vol1 and Vol2). 
+In this scenario, which two catching technologies would be applied to which volumes? (Choose two.)
+A. Flash Pool can be applied to all volumes including the SVM root volume.
+B. FlashCache can be applied to all volumes including the SVM root volume.
+C. Flash Pool can be applied to all volumes except the SVM root volume.
+D. FlashCache can be applied to all volumes except the SVM root volume.
+Answer: AB
+
+4.Which two performance threshold policies in OnCommand Unified manager are configurable? (Choose two.)
+A. user-defined
+B. volume
+C. system-defined
+D. dynamic
+Answer: CD
+Explanation:
+Reference: http://docs.netapp.com/ocum-72/index.jsp?topic=%2Fcom.netapp.doc.onc-um-perf-ag% 2FGUID-B0C4679D-E783-47B5-BD22-24A72CCF10FA.html
+
+5.Two 100 GB space-reserved LUNs and one 100 GB non-space-reserved LUN were created in System Manager in a 1 TB volume. 
+In this scenario, how much space has been allocated for writes to the three LUNs?
+A. 1 TB
+B. 300 GB
+C. 100 GB
+D. 200 GB
+Answer: D
+Explanation:
+Reference: http://ppbwiki.rz-berlin.mpg.de/uploads/Intern.NetApp/semg.pdf
+
+6.In which two scenarios would you use a storage pool? (Choose two.)
+A. when providing an SSD caching layer evenly across multiple aggregates
+B. when you need to share an SSD caching layer within an HA pair
+C. when you have an SVM that is running a block protocol
+D. when migrating the aggregate over to the partner node
+Answer: AB
+Explanation:
+Reference: http://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.onc-sm-help-900% 2FGUID-31FCCF2B-6BFE-44E9-90B8-4724E4B59A77.html
+
+7.You have configured SVM Disaster Recovery on your cluster, and you set the identity-preserveoption to false. 
+In this scenario, which objects are replicated?
+A. SAN LIFs
+B. NFS Export policies
+C. DNS and DNS hosts
+D. Snapshot copies
+Answer: D
+Explanation:
+Reference: https://library.netapp.com/ecm/ecm_download_file/ECMLP2496254
+
+8.Which three name services does ONTAP support? (Choose three.)
+A. HTTP
+B. local files
+C. LDAP
+D. NIS
+E. SNMP
+Answer: BCD
+Explanation:
+Reference: https://library.netapp.com/ecmdocs/ECMP1610208/html/GUID-CF638806-8445-4306-9307-804010B317A8.html
+
+9.When you create a FlexVol volume, which security style is applied by default?
+A. the security style of the root volume of the cluster
+B. UNIX
+C. NTFS
+D. the security style of the SVM root volume
+Answer: D
+
+10.Which two interface group types enable the load balancing algorithm to be used? (Choose two.)
+A. load balance mode
+B. QoS mode
+C. dynamic multimode
+D. static multimode
+Answer: CD
+Explanation:
+Reference: https://docs.netapp.com/ontap-9/index.jsp?topic=%2Fcom.netapp.doc.dot-cm-nmg%2FGUID-F4924A4C-9B7B-4281-BD07-A2F195BAC42D.html
+
+11.Which two configuration limits should you verify when you add additional storage to an AFF A300 switchless configuration? (Choose two.)
+A. the supported number of SSD disks for the A300 system
+B. the supported number of shelves
+C. the supported number of HDDs for the A300 system
+D. the supported number of FC initiator ports for the A300 system
+Answer: AC
+
+12.Which two statements are true for mailbox disks per node in an HA pair? (Choose two.)
+A. Six disks are required if the root volume is on a mirrored aggregate.
+B. Two disks are required if the root volume is on a disk shelf.
+C. Four disks are required if the root volume is on a mirrored aggregate.
+D. Eight disks are required if the root volume is on partitioned disks.
+E. One array LUN is required if the root volume is on a storage array.
+Answer: BE
+Explanation:
+Reference: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492713 (8)
+
+13.What are two advantages of creating small RAID groups inside an aggregate? (Choose two.)
+A. maximized storage space
+B. decreased risk of multiple disk failure
+C. shorter reconstruction time
+D. additional available spare drives
+Answer: BC
+Explanation:
+Reference: https://library.netapp.com/ecmdocs/ECMM1277794/html/smg/GUID-EE30CDA9-095F-4DD1-9A29-BB9F0E55DB4F.html
+
+14.Which statement is true about creating volumes that contain LUNs?
+A. You can create LUNs on an aggregate.
+B. You cannot create qtrees on a volume that contains LUNs.
+C. You cannot create LUNs on an SVM root volume.
+D. You cannot create add files on a volume that contains LUNs.
+Answer: C
+
+15.A storage administrator currently has an 8-node FAS8200 cluster with CIFS, NFS, and iSCSI licenses installed. 
+In this scenario, how many additional nodes are supported?
+A. 3
+B. 6
+C. 4
+D. 1
+Answer: C
+
+16.What are three types of shells that are used in ONTAP? (Choose three.)
+A. clustershell
+B. systemshell
+C. powershell
+D. nodeshell
+E. bashshell
+Answer: ABD
+
+Practice more Netapp NCDA NS0-160 exam dumps below. 
+https://www.passcert.com/NS0-160.html
